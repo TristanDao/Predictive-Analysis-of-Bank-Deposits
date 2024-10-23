@@ -25,7 +25,7 @@ The older marketing options have contributed minimally to increasing the busines
 
 5. **How can the bank increase the proportion of customers who register for long-term deposits?**
 
-6. **How can machine learning models be used to predict customer behavior and improve the targeting of marketing campaigns?**
+6. **Which machine learning models can be used to predict customer behavior and improve the targeting of marketing campaigns?**
 
 ## Result
 
@@ -42,6 +42,10 @@ The older marketing options have contributed minimally to increasing the busines
 - **Contact month:** May and the last months of the year have the highest number of successful customer contacts.
 - **Call duration:** The likelihood of success increases with longer call durations.
 - **Number of contacts:** Customers contacted fewer than 5 times have a higher success rate than those contacted multiple times.
+
+### 3. Machine Learning Model
+
+- **GradientBoostingClassifier** was chosen after testing many different models, with a recall of 0.75 and precision of 0.51.
 
 ## Recommendations
 
